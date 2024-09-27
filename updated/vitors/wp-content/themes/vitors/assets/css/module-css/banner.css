@@ -1,0 +1,377 @@
+/*** 
+
+====================================================================
+	Banner One
+====================================================================
+
+***/
+.banner-one {
+    position: relative;
+    display: block;
+    background-color: #000000;
+    padding: 245px 0 223px;
+}
+
+.banner-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .50;
+    z-index: -1;
+}
+
+.banner-one__shape-2 {
+    position: absolute;
+    bottom: 130px;
+    right: 110px;
+}
+
+.banner-one__shape-2 img {
+    width: auto;
+}
+
+.banner-one__shape-3 {
+    position: absolute;
+    bottom: 83px;
+    right: 217px;
+}
+
+.banner-one__shape-3 img {
+    width: auto;
+}
+
+.banner-one__inner {
+    position: relative;
+    display: block;
+}
+
+.banner-one__arrow {
+    position: relative;
+    display: block;
+    margin-left: 125px;
+}
+
+.banner-one__arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 148px;
+    color: var(--thm-white);
+}
+
+.banner-one__title-one {
+    font-size: 128px;
+    color: var(--thm-white);
+    font-weight: 700;
+    line-height: 128px;
+    letter-spacing: -5.12px;
+    margin-top: 51px;
+    margin-bottom: 49px;
+}
+
+.banner-one__title-one span {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    top: -93px;
+    left: -82px;
+}
+
+.banner-one__title-two {
+    font-size: 148px;
+    line-height: 148px;
+    font-weight: 700;
+    font-family: var(--thm-font-two);
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--thm-base);
+}
+
+.banner-one__img-box {
+    position: absolute;
+    top: 0;
+    right: 110px;
+    z-index: 2;
+}
+
+.banner-one__img {
+    position: relative;
+    display: block;
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+}
+
+.banner-one__img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .50);
+    border-top-right-radius: 125px;
+    border-bottom-right-radius: 125px;
+}
+
+.banner-one__img img {
+    border-top-right-radius: 125px !important;
+    border-bottom-right-radius: 125px !important;
+    width: auto;
+}
+
+.banner-one__curved-circle {
+    position: absolute;
+    top: 0px;
+    right: 6px;
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.banner-one__curved-circle .curved-circle {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--thm-white);
+    letter-spacing: 0.05em;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto !important;
+    border-radius: 50%;
+    animation: animName 17s linear infinite;
+}
+
+.banner-one__video-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+}
+
+.banner-one__video-icon {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: var(--thm-white);
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+
+
+
+
+  @keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+   
+   
+
+
+
+
+
+
+
+.banner-one__text {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+    max-width: 445px;
+    width: 100%;
+}
+
+.banner-one__text p {
+    font-size: 18px;
+    color: var(--thm-white);
+    letter-spacing: -0.72px;
+    line-height: 30px;
+}
+
+
+
+
+
+/*** 
+
+====================================================================
+	Banner TWo
+====================================================================
+
+***/
+.banner-two {
+    position: relative;
+    display: block;
+    padding: 92px 0 528px;
+    z-index: 1;
+}
+
+.banner-two__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.banner-two__inner {
+    position: relative;
+    display: block;
+}
+
+.banner-two__top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-two__top-title {
+    font-size: 108px;
+    line-height: 118px;
+    color: var(--thm-white);
+    font-weight: 400;
+    letter-spacing: -4.32px;
+}
+
+.banner-two__top-text-box {
+    position: relative;
+    display: block;
+    max-width: 470px;
+    width: 100%;
+    border-left: 1px solid var(--thm-base);
+    padding-left: 25px;
+    margin-left: 70px;
+}
+
+.banner-two__top-text {
+    font-size: 18px;
+    color: var(--thm-white);
+    line-height: 30px;
+    letter-spacing: -0.72px;
+}
+
+.banner-two__bottom {
+    position: relative;
+    display: block;
+    margin-top: 33px;
+}
+
+.banner-two__arrow {
+    position: absolute;
+    top: -116px;
+    right: 59px;
+}
+
+.banner-two__arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 160px;
+    color: var(--thm-base);
+}
+
+.banner-two__bottom-title {
+    font-size: 108px;
+    line-height: 118px;
+    color: var(--thm-base);
+    font-weight: 700;
+    letter-spacing: -4.32px;
+}
+
+.banner-two__bottom-title span {
+    font-family: var(--thm-font-two);
+    color: var(--thm-white);
+    letter-spacing: -5.12px;
+}
+
+/*** 
+
+====================================================================
+	Banner Img
+====================================================================
+
+***/
+.banner-img {
+    position: relative;
+    display: block;
+    margin-top: -430px;
+    z-index: 2;
+}
+
+.banner-img .container {
+    max-width: 1430px;
+}
+
+.banner-img__img {
+    position: relative;
+    display: block;
+}
+
+.banner-img__img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/

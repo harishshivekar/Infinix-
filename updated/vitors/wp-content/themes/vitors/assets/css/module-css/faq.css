@@ -1,0 +1,186 @@
+/*** 
+
+====================================================================
+	Faq One
+====================================================================
+
+***/
+
+.faq-one {
+    position: relative;
+    display: block;
+    padding: 120px 0 108px;
+}
+
+.faq-one__left {
+    position: relative;
+    display: block;
+    margin-left: -136px;
+    margin-right: 120px;
+}
+
+.faq-one__content-box {
+    position: relative;
+    display: block;
+}
+
+.faq-one__curved-circle {
+    position: relative;
+    height: 588px;
+    width: 588px;
+    border-radius: 50%;
+    background-color: var(--thm-base);
+    z-index: 1;
+}
+
+.faq-one__curved-circle:before {
+    content: "";
+    position: absolute;
+    bottom: -135px;
+    right: -35px;
+    height: 520px;
+    width: 520px;
+    background-color: var(--thm-white);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.faq-one__curved-circle .curved-circle-3 {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--thm-white);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: var(--thm-font-two);
+    top: 60px;
+    left: -85px;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+}
+
+.faq-one__circle-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 374px;
+    width: 374px;
+    background-color: var(--thm-black);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    border: 14px solid var(--thm-white);
+}
+
+.faq-one__img {
+    position: absolute;
+    bottom: -130px;
+    right: -32px;
+}
+
+.faq-one__img img {
+    width: auto;
+    border-radius: 50% !important;
+    border: 10px solid #666666 !important;
+}
+
+.faq-one__right {
+    position: relative;
+    display: block;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #AAAAAA;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion.last-child {
+    border-bottom: 0;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion-title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 31px 0px 32px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    padding-left: 85px;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion-title h4 {
+    margin: 0;
+    font-size: 24px;
+    color: var(--thm-black);
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.96px;
+    position: relative;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion.active .accrodion-title h4 {
+    color: var(--thm-base);
+}
+
+.faq-one__right .faq-one-accrodion .accrodion+.accrodion {
+    margin-top: 0px;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion-title h4::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    text-align: center;
+    width: 42px;
+    height: 50px;
+    background-image: url(../shape/faq-one-shape-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    background-image: url(../shape/faq-one-shape-2.png);
+    top: 85%;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion-content {
+    position: relative;
+    padding-bottom: 31px;
+    padding-left: 85px;
+    margin-top: -7px;
+}
+
+.faq-one__right .faq-one-accrodion .accrodion-content p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/

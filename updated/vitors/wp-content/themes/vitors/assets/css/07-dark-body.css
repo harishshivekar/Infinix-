@@ -1,0 +1,333 @@
+/* Lizar Business HTML Template */
+
+/* RTL Style CSS Code */
+
+.dark-body,
+.dark-body .main-header__top-inner {
+    background-color: #000000;
+}
+
+
+
+
+
+.dark-body .section-title__title,
+.dark-body .about-one__standard-box h3,
+.dark-body .services-one__title a,
+.dark-body .testimonial-one__client-name,
+.dark-body .team-one__title a,
+.dark-body .team-one__sub-title,
+.dark-body .team-one__social a,
+.dark-body .services-two__title a,
+.dark-body .counter-one__count-box h3,
+.dark-body .counter-one__letter,
+.dark-body .testimonial-two__client-name,
+.dark-body .faq-one__right .faq-one-accrodion .accrodion-title h4,
+.dark-body .blog-two__title a,
+.dark-body .blog-two__btn span,
+.dark-body .newsletter-one__title,
+.dark-body .project-three__count:before,
+.dark-body .project-three__title a,
+.dark-body .team-two__title a,
+.dark-body .process-one__title a,
+.dark-body .blog-three__title a,
+.dark-body .team-two__social a,
+.dark-body .get-in-touch__title,
+.dark-body .blog-three__btn span,
+.dark-body .services-details__title-1,
+.dark-body .services-details__middle-title,
+.dark-body .services-details__included-services-title,
+.dark-body .services-details__what-we-do-title,
+.dark-body .services-details__faq-title,
+.dark-body .services-details__faq-accrodion .accrodion-title h4,
+.dark-body .services-details__faq-accrodion .accrodion-title h4::before,
+.dark-body .project-details__title,
+.dark-body .project-details__category-list li>h4,
+.dark-body .project-details__content-title,
+.dark-body .project-details__content-points p,
+.dark-body .project-details__bottom-points li>p,
+.dark-body .blog-page__title a,
+.dark-body .sidebar__post-title a,
+.dark-body .sidebar__title,
+.dark-body .blog-details__img-text-box h3,
+.dark-body .blog-details__title,
+.dark-body .blog-details__quote-text,
+.dark-body .blog-details__title-2,
+.dark-body .blog-details__points-title,
+.dark-body .blog-details__tags span,
+.dark-body .blog-details__social-list span,
+.dark-body .comment-one__title,
+.dark-body .get-in-touch-two__list li .content h3,
+.dark-body .contact-page__title,
+.dark-body .thm-btn {
+    color: var(--thm-white);
+}
+
+
+.dark-body .testimonial-one__client-sub-title,
+.dark-body .comment-one__content h3,
+.dark-body .comment-one__form-ratting span,
+.dark-body .sidebar__category-list li a {
+    color: var(--thm-gray);
+}
+
+
+.dark-body .feature-one__list li a {
+    color: var(--thm-base);
+}
+
+
+
+.dark-body .about-one__shape-1 img {
+    filter: grayscale(1);
+}
+
+.dark-body .about-one__shape-2 img,
+.dark-body .team-one__bg,
+.dark-body .services-one__bg,
+.dark-body .services-two__shape-1,
+.dark-body .blog-two__shape-bg,
+.dark-body .about-three__bg,
+.dark-body .team-two__bg,
+.dark-body .services-three__shape-1,
+.dark-body .feature-three__shape-1,
+.dark-body .newsletter-one__bg,
+.dark-body .brand-one__img>img {
+    filter: invert(1);
+}
+
+
+
+
+
+.dark-body .about-one__bottom,
+.dark-body .about-three__counter-list {
+    border-top: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .services-one__single,
+.dark-body .services-two__content,
+.dark-body .sidebar__category,
+.dark-body .sidebar__post,
+.dark-body .sidebar__tag,
+.dark-body .faq-one__right .faq-one-accrodion .accrodion {
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .counter-one__single,
+.dark-body .sidebar__tag-list a,
+.dark-body .blog-details__tags a,
+.dark-body .comment-one__input-box textarea,
+.dark-body .contact-page__input-box textarea,
+.dark-body .comment-one__input-box input[type="text"],
+.dark-body .comment-one__input-box input[type="email"],
+.dark-body .contact-page__input-box input[type="text"],
+.dark-body .contact-page__input-box input[type="email"],
+.dark-body .blog-one__single {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-body .feature-one__list li a:hover {
+    color: var(--thm-white);
+}
+
+.dark-body .feature-one__list li a:hover span {
+    color: var(--thm-white);
+}
+
+
+.dark-body .about-one__img-2::before {
+    border: 9px solid var(--thm-black);
+}
+
+.dark-body .services-one__arrow a,
+.dark-body .team-one__content::before {
+    background-color: var(--thm-base);
+}
+
+.dark-body .team-one__content {
+    background: var(--thm-black);
+}
+
+.dark-body .team-one__share-btn a {
+    color: var(--thm-base);
+    background-color: var(--thm-white);
+}
+
+.dark-body .team-one__social a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-one__blog-list>li:nth-child(2) .blog-one__content {
+    background-color: var(--thm-black);
+}
+
+.dark-body .blog-one__meta>li>a,
+.dark-body .blog-one__title a {
+    color: var(--thm-white);
+}
+
+.dark-body .blog-one__meta>li>a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-one__title a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-one__read-more:hover {
+    color: var(--thm-white);
+}
+
+.dark-body .faq-one__right .faq-one-accrodion .accrodion-title h4::before {
+    filter: invert(1);
+}
+
+.dark-body .faq-one__right .faq-one-accrodion .accrodion.active .accrodion-title h4::before {
+    filter: none;
+}
+
+.dark-body .blog-two__content {
+    background-color: #000000;
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .blog-two__title {
+    border-bottom: 2px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .blog-two__title:before {
+    border-left: 12px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .newsletter-one__newsletter-form-input-box input[type="email"] {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .newsletter-one__newsletter-btn {
+    background-color: var(--thm-black);
+    color: var(--thm-white);
+}
+
+.dark-body .newsletter-one__newsletter-btn:hover {
+    background-color: var(--thm-base);
+    color: var(--thm-white);
+}
+
+.dark-body .project-three__project-list li:first-child {
+    border-top: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-three__project-list li {
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-three__project-list li:hover .project-three__count:before {
+    color: var(--thm-base);
+}
+
+.dark-body .team-two__content {
+    background-color: #000000;
+}
+
+.dark-body .team-two__social {
+    background-color: var(--thm-black);
+}
+
+.dark-body .team-two__social a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .process-one__single {
+    background: var(--thm-black);
+}
+
+.dark-body .process-one__single::before {
+    background-color: var(--thm-base);
+}
+
+.dark-body .process-one__title a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-three__content {
+    background-color: #000000;
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .blog-three__title {
+    border-top: 2px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .blog-three__title:before {
+    border-left: 12px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .project-details__content-shape,
+.dark-body .project-details__bottom-points-shape {
+    background-color: var(--thm-white);
+}
+
+.dark-body .blog-page__title a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-page__read-more:hover {
+    color: var(--thm-white);
+}
+
+.dark-body .blog-page__read-more::before,
+.dark-body .blog-page__read-more::after {
+    background-color: rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .blog-page__pagination .pg-pagination li a {
+    color: var(--thm-white);
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .sidebar__search-form input[type="search"] {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .sidebar__category-list li a:hover {
+    color: var(--thm-white);
+    text-shadow: 1px 0 0 rgb(255 255 255 / 80%);
+}
+
+.dark-body .sidebar__post-title a:hover {
+    color: var(--thm-base);
+}
+
+.dark-body .blog-details__quote-box {
+    border: 1px solid rgba(var(--thm-white-rgb), .10);
+    background: var(--thm-black);
+}
+
+.dark-body .blog-details__bottom {
+    border-top: 1px dashed rgba(var(--thm-white-rgb), .10);
+    border-bottom: 1px solid rgba(var(--thm-white-rgb), .10);
+}
+
+.dark-body .get-in-touch-two__list li .icon {
+    background-color: var(--thm-black);
+}
+
+.dark-body .get-in-touch-two__list li .icon:hover {
+    background-color: var(--thm-base);
+    color: var(--thm-white);
+}

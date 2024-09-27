@@ -1,0 +1,108 @@
+/*** 
+
+====================================================================
+	Brand One
+====================================================================
+
+***/
+.brand-one {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.brand-one .container {
+    max-width: 1515px;
+}
+
+.brand-one__inner {
+    position: relative;
+    display: block;
+    padding: 120px 0 120px;
+}
+
+.brand-one .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.brand-one__single {
+    position: relative;
+    display: block;
+}
+
+.brand-one__img {
+    position: relative;
+    display: block;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    opacity: 1;
+}
+
+.brand-one__single:hover .brand-one__img {
+    opacity: 0;
+}
+
+.brand-one__img>img {
+    max-width: 100%;
+}
+
+.brand-one__hover-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    opacity: 0;
+}
+
+.brand-one__single:hover .brand-one__hover-img {
+    opacity: 1;
+}
+
+.brand-one__hover-img>img {
+    width: auto;
+    max-width: none;
+}
+
+/*** 
+
+====================================================================
+	Brand Two
+====================================================================
+
+***/
+
+.brand-two .brand-one__inner {
+    position: relative;
+    display: block;
+    padding: 0px 0 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/

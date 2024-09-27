@@ -1,0 +1,183 @@
+/* 
+Lizar Business HTML Template 
+
+*/
+/************ TABLE OF CONTENTS ***************
+
+1. Fonts
+2. Reset
+3. Global
+4. Main Header / Two / Three
+5. Main Slider / Two / Three
+6. About One
+7. Services One / Two / Three / Four
+8. Project One / Two / Three
+9. Testimonial One / Two / Three
+10. Partners One
+11. News One / Two
+12. CTA One
+13. Main Footer
+14. Clients One / Two / Three
+15. Counter One
+16. News Three
+17. InTouch One
+18. Page Title
+19. Banner One
+20. Work One
+21. Pricing One
+22. Team One
+23. Services Widgets
+24. Services Detail
+25. Our Projects
+26. Projects Detail
+27. Projects Widgets
+28. Our Blog
+29. Blog Widgets
+30. Comment Form
+31. Comment Box
+32. Contact Info
+33. Contact Form
+34. Map
+
+**********************************************/
+
+
+
+/*** 
+====================================================================
+	Css Files
+====================================================================
+***/
+@import url('01-global.css');
+@import url('module-css/header.css');
+@import url('module-css/footer.css');
+@import url('module-css/slider.css');
+@import url('module-css/feature.css');
+@import url('module-css/about.css');
+@import url('module-css/video.css');
+@import url('module-css/services.css');
+@import url('module-css/project.css');
+@import url('module-css/banner.css');
+@import url('module-css/team.css');
+@import url('module-css/testimonial.css');
+@import url('module-css/blog.css');
+@import url('module-css/award.css');
+@import url('module-css/brand.css');
+@import url('module-css/counter.css');
+@import url('module-css/pricing.css');
+@import url('module-css/sliding-text.css');
+@import url('module-css/faq.css');
+@import url('module-css/newsletter.css');
+@import url('module-css/get-in-touch.css');
+@import url('module-css/process.css');
+@import url('module-css/why-choose.css');
+@import url('module-css/page-header.css');
+@import url('module-css/contact.css');
+@import url('module-css/google-map.css');
+
+
+@import url('02-nice-select.css');
+@import url('03-owl.css');
+@import url('04-animate.css');
+@import url('05-rtl.css');
+@import url('06-custom-animate.css');
+@import url('07-dark-body.css');
+@import url('08-font-awesome.css');
+@import url('09-icomoon.css');
+@import url('10-jarallax.css');
+@import url('11-preloader.css');
+@import url('12-swiper.min.css');
+@import url('13-odometer-theme-default.css');
+@import url('14-jquery-ui.css');
+@import url('15-magnific-popup.css');
+@import url('../fonts/reey-font/stylesheet.css');
+
+
+
+/*** 
+====================================================================
+	
+====================================================================
+***/
+
+
+/* Sticy Header */
+.want-sticky-header .main-header.fixed-header {
+	position: relative !important;
+	display: none;
+}
+
+
+
+
+
+/* Box Layout */
+.box-layout .page-wrapper {
+	max-width: 1390px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+	margin-top: 15px;
+}
+
+.box-layout:before {
+	position: fixed;
+	content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: url(../images/pattern/thm-pattern-2.jpg);
+	opacity: 0.40;
+	background-color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.color-palate .rtl-version.option-box > li{
+	position: relative;
+	color:#ffffff;
+	width: 40%;
+	margin:0px 3px;
+	cursor: pointer;
+	margin-bottom: 9px;
+	padding:6px 12px;
+	display: inline-block;
+	background-color: #18c5fe;
+	text-transform:capitalize;
+	font-size: 12px;
+}
+
+.color-palate .option-box > li{
+	position: relative;
+	color:#ffffff;
+	width: 40%;
+	margin:0px 3px;
+	cursor: pointer;
+	margin-bottom: 9px;
+	padding:6px 12px;
+	display: inline-block;
+	background-color: #18c5fe;
+	text-transform:uppercase;
+	font-size: 12px;
+}
+
+.box-layout .main-header-three__logo-box {
+	left: 0;
+}
+
+.box-layout .team-two__right {
+	margin-left: 0;
+}
+
+.box-layout .team-two__left {
+	margin-right: 0;
+}
+
+.box-layout .team-two__left .section-title__title {
+	font-size: 40px;
+	line-height: 50px;
+}

@@ -1,0 +1,108 @@
+/*** 
+
+====================================================================
+	Page Header
+====================================================================
+
+***/
+.page-header {
+    position: relative;
+    display: block;
+    padding: 200px 0 210px;
+    z-index: 1;
+}
+
+.page-header__bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.page-header__inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.page-header__inner h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    color: var(--thm-white);
+    text-transform: uppercase;
+    font-family: var(--thm-font-two);
+}
+
+.thm-breadcrumb__box {
+    position: relative;
+    display: inline-block;
+    margin-top: 4px;
+}
+
+.thm-breadcrumb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thm-breadcrumb li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--thm-base);
+    text-transform: uppercase;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li+li {
+    margin-left: 7px;
+}
+
+.thm-breadcrumb li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: var(--thm-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.thm-breadcrumb li:hover a {
+    color: var(--thm-base);
+}
+
+.thm-breadcrumb li span {
+    position: relative;
+    color: var(--thm-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/

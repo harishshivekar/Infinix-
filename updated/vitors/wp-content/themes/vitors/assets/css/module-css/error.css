@@ -1,0 +1,56 @@
+/*** 
+
+====================================================================
+    Error Section
+====================================================================
+
+***/
+
+.error-section{
+    position:relative;
+    text-align:center;
+    padding:150px 0px;
+}
+
+.error-section:before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    opacity: .05;
+}
+
+.error-section .error-title{
+    position:relative;
+    color:var(--thm-black);
+    font-size:200px;
+    font-weight:700;
+    line-height: 1em;
+    text-shadow: 0 20px 30px rgba(0,0,0,0.20);
+}
+
+.error-section h4{
+    color:var(--thm-black);
+    font-size:40px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.error-section .text{
+    color:var(--thm-gray);
+    font-size:22px;
+    line-height: 1.4em;
+    margin-bottom:30px;
+}
+
+.error-section .theme-btn{
+    border-radius:5px;
+    font-weight: 500;
+    margin: 0 10px 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.20);
+}

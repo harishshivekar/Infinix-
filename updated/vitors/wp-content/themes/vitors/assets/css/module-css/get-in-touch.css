@@ -1,0 +1,217 @@
+/*** 
+
+====================================================================
+	Get In Touch
+====================================================================
+
+***/
+.get-in-touch {
+    position: relative;
+    display: block;
+    padding: 0 0 103px;
+}
+
+.get-in-touch__inner {
+    position: relative;
+    display: block;
+}
+
+.get-in-touch__top {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.get-in-touch__top-img {
+    position: relative;
+    display: block;
+    width: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.get-in-touch__top-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.get-in-touch__top-btn {
+    position: relative;
+    display: block;
+    margin-left: -50px;
+}
+
+.get-in-touch__top-btn a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+    background-color: var(--thm-base);
+    border-radius: 50%;
+    border-bottom-right-radius: 0;
+    font-size: 70px;
+    color: var(--thm-black);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.get-in-touch__top-btn a span {
+    position: relative;
+    display: inline-block;
+    top: 25px;
+    left: 25px;
+}
+
+.get-in-touch__top-btn a:hover {
+    background-color: var(--thm-black);
+    color: var(--thm-white);
+}
+
+.get-in-touch__bottom {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.get-in-touch__title {
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: -2.88px;
+    line-height: 87px;
+    text-transform: capitalize;
+}
+
+
+.get-in-touch.padding-top {
+    padding: 120px 0 103px;
+}
+
+/*** 
+
+====================================================================
+	Get In Touch Two
+====================================================================
+
+***/
+.get-in-touch-two {
+    position: relative;
+    display: block;
+    padding: 120px 0 109px;
+    z-index: 1;
+}
+
+.get-in-touch-two .container {
+    max-width: 1000px;
+}
+
+.get-in-touch-two__inner {
+    position: relative;
+    display: block;
+}
+
+.get-in-touch-two__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.get-in-touch-two__list li {
+    position: relative;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-touch-two__list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 80px;
+    height: 80px;
+    background-color: #F5F5F5;
+    filter: drop-shadow(6px 6px 4px rgba(0, 0, 0, 0.07));
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.get-in-touch-two__list li .icon:hover {
+    background-color: var(--thm-black);
+}
+
+.get-in-touch-two__list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 43px;
+    color: var(--thm-base);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.get-in-touch-two__list li .icon:hover span {
+    color: var(--thm-white);
+}
+
+.get-in-touch-two__list li .content {
+    position: relative;
+    display: block;
+    margin-left: 30px;
+}
+
+.get-in-touch-two__list li .content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.96px;
+    margin-bottom: 8px;
+}
+
+.get-in-touch-two__list li .content p {
+    font-size: 15px;
+}
+
+.get-in-touch-two__list li .content p a {
+    color: var(--thm-gray);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.get-in-touch-two__list li .content p a:hover {
+    color: var(--thm-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/

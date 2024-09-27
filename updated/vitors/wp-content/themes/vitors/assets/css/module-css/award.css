@@ -1,0 +1,192 @@
+/*** 
+
+====================================================================
+	Award One
+====================================================================
+
+***/
+.award-one {
+    position: relative;
+    display: block;
+    background-color: var(--thm-black);
+    overflow: hidden;
+    padding: 120px 0 120px;
+    z-index: 1;
+}
+
+.award-one__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.award-one .section-title__title {
+    color: var(--thm-white);
+}
+
+.award-one__table-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.award-one__table {
+    position: relative;
+    margin: 0;
+}
+
+.award-one__table tbody tr {
+    position: relative;
+    text-align: center;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.award-one__table tbody tr:hover {
+    background-color: #444444;
+}
+
+.award-one__table tbody tr:last-child {
+    border-bottom: 0;
+}
+
+.award-one__table tbody tr td {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--thm-white);
+    padding: 40px 0;
+    border: 1px solid #111111;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.award-one__table tbody tr td:first-child {
+    width: 300px;
+}
+
+.award-one__table tbody tr td:last-child {
+    width: 170px;
+}
+
+.award-one__table tbody tr td:nth-child(2) {
+    width: 185px;
+}
+
+.award-one__year-box {
+    position: relative;
+    display: block;
+}
+
+.award-one__year {
+    position: relative;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.award-one__table tbody tr:hover .award-one__year {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.award-one__hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.award-one__table tbody tr:hover .award-one__hover-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.award-one__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.award-one__icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    color: var(--thm-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.award-one__table tbody tr:hover .award-one__icon span {
+    color: var(--thm-base);
+}
+
+.award-one__quality-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+.award-one__arrow {
+    position: relative;
+    display: block;
+}
+
+.award-one__arrow a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: #444444;
+    font-size: 20px;
+    color: var(--thm-white);
+    border-radius: 50%;
+    margin: 0 auto;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.award-one__table tbody tr:hover .award-one__arrow a {
+    background-color: var(--thm-base);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+
+====================================================================
+	End
+====================================================================
+
+***/
